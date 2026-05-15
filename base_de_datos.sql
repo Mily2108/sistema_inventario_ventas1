@@ -28,3 +28,7 @@ INSERT INTO productos (nombre_producto, categoria, stock, precio) VALUES
 ('Impresora Epson EcoTank', 'Oficina', 5, 210.00),
 ('Resma de Papel Tamaño Carta', 'Papelería', 100, 4.25);
 
+-- Actualización simultánea de precio y stock:
+-- UPDATE productos SET precio = 720.00, stock = 15 WHERE id = 1;
+-- Eliminación de producto descontinuado:
+-- DELETE FROM productos WHERE id = 4;
